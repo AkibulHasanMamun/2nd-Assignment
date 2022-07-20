@@ -181,6 +181,14 @@ i {
     font-size: 10px;
 }
 
+/* for bonus marks button only visible for tablet */
+#special-btn {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
 /* resposive for tablet device */
 
 @media screen and (min-width:689px) and (max-width:992px) {
@@ -200,9 +208,10 @@ i {
     }
 
     #special-btn {
-        visibility: hidden;
+        display: block;
     }
 }
+
 
 
 /* resposive for mobile like device */
@@ -232,16 +241,8 @@ i {
     }
 }
 
-/* for bonus marks  */
 
-#special-btn {
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-    visibility: hidden;
-}
-
-
+/* for bonus marks button only visible for tablet */
 /* transition effect */
 
 .head-container img:hover {
