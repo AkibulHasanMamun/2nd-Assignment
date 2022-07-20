@@ -198,6 +198,10 @@ i {
         grid-template-columns: repeat(2, 1fr);
 
     }
+
+    #special-btn {
+        visibility: hidden;
+    }
 }
 
 
@@ -228,15 +232,13 @@ i {
     }
 }
 
-
-
 /* for bonus marks  */
 
 #special-btn {
     width: 60%;
     margin: 0 auto;
     text-align: center;
-
+    visibility: hidden;
 }
 
 
