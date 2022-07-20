@@ -199,6 +199,8 @@ i {
 
 /* resposive for tablet device */
 
+/* resposive for tablet device */
+
 @media screen and (min-width:689px) and (max-width:992px) {
 
     .nav {
@@ -213,5 +215,35 @@ i {
     .blogs {
         grid-template-columns: repeat(2, 1fr);
 
+    }
+
+}
+
+
+
+/* resposive for mobile like device */
+
+@media screen and (max-width:688px) {
+    .head-container {
+        flex-direction: column;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-container {
+        flex-direction: column;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .foot-contents {
+        display: flex;
+        flex-direction: column;
     }
 }
